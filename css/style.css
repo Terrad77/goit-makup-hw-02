@@ -48,19 +48,20 @@ h3 {
         font-style: normal;
         font-weight: 700;
         line-height: 1.17;/* 116.667% */        
-        letter-spacing: 0.03; /* letter-spacing: 0.54px/font-size: 18px; =0.03 */
+        letter-spacing: 0.03em; /* letter-spacing: 0.54px/font-size: 18px; =0.03 */
         text-transform: uppercase;
         text-decoration: none;
         color: #4D5AE5;
+        
                     
 }
 .word-studio {color: #2E2F42; width: 71px;}
 
-.site-nav {
+/* .site-nav {
     display:inline-flex;
     align-items:flex-start;
     gap: 40px;
-}
+} */
 .site-nav a {
         color: var(--navyblue, #2E2F42);    
             /*Body Medium
@@ -82,18 +83,18 @@ h3 {
 
 header {
         justify-content: center;
-        align-items: center;
+        /* align-items: center;
         flex-shrink: 0;
         display: flex;
-    flex-direction:row;
+        flex-direction:row;
         width: 1440px;
-        height: 72px;
+        height: 72px; */
 }
-header .logo {
+/* header .logo {
     display: inline-flex;
 height: 24px;
 align-items: center;
-flex-shrink: 0;}
+flex-shrink: 0;} */
 
 address a {
     color: var(--slate, #434455);    
@@ -104,7 +105,7 @@ address a {
         font-weight: 400;
         line-height: 24px;
         /* 150% */
-        letter-spacing: 0.32px;      
+        letter-spacing: 0.32em;      
 }
 address a:hover,
 address a:focus {
