@@ -19,19 +19,17 @@ h1 {
     line-height:1.07; /*line-height у множник = line-height: 60px;/ font-size: 56px;*/
 }
 h2 {      
-    color: var(--navyblue, #2E2F42);
+    color:  #2E2F42;
     text-align: center;    
-        /* Header 2 */        
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
-        line-height: 1.11;/* 111.111% */
-        
+        line-height: 1.11;     
         letter-spacing: 0.72px;
         text-transform: capitalize;
 }
 h3 {
-    color: var(--navyblue, #2E2F42);
+    color: #2E2F42;
             
         font-size: 20px;
         font-style: normal;
@@ -42,7 +40,7 @@ h3 {
 }
 
 /*Top line*/
-.header-page {background: var(--white, #FFF);}        
+.header-page {background: #FFF;}        
 .header-page .logo {
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
@@ -61,20 +59,20 @@ h3 {
     gap: 40px;
 } */
 .site-nav a {
-        color: var(--navyblue, #2E2F42);    
+        color:  #2E2F42;
+        font-weight: 500;    
             /*Body Medium
         font-family: Roboto;
         font-size: 16px;
-        font-style: normal; */
-        font-weight: 500;
-        /* line-height: 24px;/*== 150%       
+        font-style: normal;        
+         line-height: 24px;/*== 150%       
         letter-spacing: 0.32px;        
         align-items: flex-start; */
              
 }
 .site-nav a:hover,
 .site-nav a:focus {
-    color: var(--ocean, #404BBF);
+    color:  #404BBF;
     
 }
 
@@ -103,7 +101,7 @@ flex-shrink: 0;} */
 } /*LMS*/
 .address-item:hover,
 .address-item:focus {
-    color: var(--ocean, #404BBF);
+    color:  #404BBF;
 }
 /* address a {      
     font-family: Roboto;       
