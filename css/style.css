@@ -92,7 +92,7 @@ height: 24px;
 align-items: center;
 flex-shrink: 0;} */
 
-.address-list {
+.header-page .address-list {
     font-style: normal;
 }
 .address-item {
