@@ -92,7 +92,9 @@ height: 24px;
 align-items: center;
 flex-shrink: 0;} */
 
-.address-list {font-style: normal;}
+.address-list {
+    font-style: normal;
+}
 .address-item {
     font-size: 16px;
     line-height: 1.5;    
