@@ -158,7 +158,7 @@ color: #434455;
 .team-title {
  font-size: 36px;
  line-height: 1.11; 
- /* text-align: center;  */
+ /* text-align: center; Для заголовка в класі задано стиль text-align: center для вирівнювання тексту */
  letter-spacing: 0.02em; 
  text-transform: capitalize; 
  color:#2e2f42;
