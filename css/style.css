@@ -170,7 +170,7 @@ color: #434455;
 /* Footer */
 .footer {
     background-color: #2e2f42;
-    }
+}
 .footer .logo {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -180,8 +180,9 @@ letter-spacing: 0.03em;
 text-transform: uppercase; 
 color:#4d5ae5;
 }
-.footer .word-studio{
-    color: #F4F4FD;}
+.footer .word-studio {
+    color: #F4F4FD;
+}
 .footer-txt {
    line-height: 1.5;
    color: #F4F4FD;
