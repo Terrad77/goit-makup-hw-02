@@ -9,7 +9,7 @@ body {
 }
 ul {
     list-style-type: none;
-    font-style: normal;
+    /* font-style: normal; */
 } /*убрать маркеры и курсив всем спискам ul*/
 a {text-decoration: none;} /*убрать подчеркивание всем ссылкам*/
 h1 {
@@ -21,7 +21,7 @@ h1 {
 }
 h2 {      
     color:  #2E2F42;
-    /* text-align: center;     */
+    /* text-align: center; */
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
@@ -30,14 +30,12 @@ h2 {
         text-transform: capitalize;
 }
 h3 {
-    color: #2E2F42;
-            
+    color: #2E2F42;            
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
         line-height: 1.2; /* 120% */
         letter-spacing: 0.4px;
-
 }
 
 /*Top line*/
@@ -85,8 +83,9 @@ h3 {
         display: flex;
         flex-direction:row;
         width: 1440px;
-        height: 72px; */
-} */
+        height: 72px; 
+    } */
+
 /* header .logo {
     display: inline-flex;
 height: 24px;
@@ -94,7 +93,7 @@ align-items: center;
 flex-shrink: 0;} */
 
 .address-list {
-    font-style:normal;
+    font-style: normal;    
 }
 .address-item {
     font-size: 16px;
@@ -158,7 +157,7 @@ color: #434455;
 .team-title {
  font-size: 36px;
  line-height: 1.11; 
- text-align: center; /*Для заголовка в класі задано стиль text-align: center для вирівнювання тексту */
+ text-align: center; /*LMS Для заголовка в класі задано стиль text-align: center для вирівнювання тексту */
  letter-spacing: 0.02em; 
  text-transform: capitalize; 
  color:#2e2f42;
